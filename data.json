@@ -11,8 +11,18 @@
           "id": "RC00-01",
           "title": "代码与配置统一 ReelCore 命名",
           "acceptance": "Go module、镜像、Compose、环境变量、CI 和文档一致。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 4,
+              "merged_at": "2026-09-16T07:41:00Z",
+              "sha": "5d26d468f047f597fd5bf75788605021e530a53b",
+              "evidence": [
+                "docs/reports/reelcore-core/rc00-naming.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC00-02",
@@ -475,6 +485,6 @@
       ]
     }
   ],
-  "source_sha": "faf615aaf44e5360405103ddd76cec2f11b6ffdf",
-  "generated_at": "2026-09-16T07:36:18.466607+00:00"
+  "source_sha": "6ff7fd3caeefe384d469b7e2325db511e0c0d504",
+  "generated_at": "2026-09-16T07:46:55.380017+00:00"
 }
