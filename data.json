@@ -685,43 +685,6 @@
       ]
     },
     {
-      "id": "RC-SW",
-      "title": "Swarm 引擎适配与切换",
-      "features": [
-        {
-          "id": "RC-SW-01",
-          "title": "默认 Torrust 统一契约（RC-SW01）",
-          "acceptance": "类型化适配、配置与就绪校验；固定 Torrust 通过 A17 参数化协议、权限、真实双栈、生命周期、故障及最终记账测试后补验 G1。",
-          "status": "in_progress",
-          "history": [
-            {
-              "status": "in_progress",
-              "pr": 26,
-              "merged_at": "2026-09-16T14:45:37Z",
-              "sha": "6b6e688c087875c2cdfee51b63e83e56ed5fb92d",
-              "evidence": [
-                "docs/reports/reelcore-core/rc-sw01-contract.md"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "RC-SW-02",
-          "title": "Aquatic HTTP 适配（RC-SW02）",
-          "acceptance": "固定 Aquatic HTTP 版本通过同套 A17 测试并记录差异；独立验收，不阻塞 Torrust 首发或 UI。",
-          "status": "planned",
-          "history": []
-        },
-        {
-          "id": "RC-SW-03",
-          "title": "受控切换与回退（RC-SW03）",
-          "acceptance": "演练 Torrust→Aquatic→Torrust，验证单目标、会话高水位和账本保留，并量化 peer 重建与投影收敛。",
-          "status": "planned",
-          "history": []
-        }
-      ]
-    },
-    {
       "id": "RC07",
       "title": "容量测试",
       "features": [
@@ -1096,6 +1059,6 @@
       ]
     }
   ],
-  "source_sha": "6b6e688c087875c2cdfee51b63e83e56ed5fb92d",
-  "generated_at": "2026-09-16T14:48:16.715386+00:00"
+  "source_sha": "655b122d35281d5b5f7036fbad6bf2b7d4936ecc",
+  "generated_at": "2026-09-16T15:05:56.799756+00:00"
 }
