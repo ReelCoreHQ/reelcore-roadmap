@@ -783,6 +783,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-plan-runner.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 32,
+              "merged_at": "2026-09-16T16:27:52Z",
+              "sha": "4c15fa13aa93b23fa548b40412d91528a873df7b",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-plan-fixture.md"
+              ]
             }
           ]
         },
@@ -1083,6 +1092,6 @@
       ]
     }
   ],
-  "source_sha": "fa8d09729350ecbe569e796f99f7250b66cd5033",
-  "generated_at": "2026-09-16T16:17:23.712565+00:00"
+  "source_sha": "4c15fa13aa93b23fa548b40412d91528a873df7b",
+  "generated_at": "2026-09-16T16:27:59.865442+00:00"
 }
