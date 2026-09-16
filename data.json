@@ -1,7 +1,7 @@
 {
   "project": "ReelCore",
   "repository": "ReelCoreHQ/reelcore",
-  "scope_note": "当前实施范围 RC01–RC09；RC10 旧数据迁移已移除；RC11/RC12 为后续计划。",
+  "scope_note": "RC01–RC09 建设 Go 核心与产品 API；RC10 为 IYUU 本地适配与联调；RC11/RC12 为前端和上线。旧数据迁移不在范围内。",
   "stages": [
     {
       "id": "RC00",
@@ -410,6 +410,54 @@
       ]
     },
     {
+      "id": "RC10",
+      "title": "IYUU 本地适配与联调",
+      "features": [
+        {
+          "id": "RC10-01",
+          "title": "机器下载接口与独立凭据",
+          "acceptance": "提供无需浏览器交互的 torrent 下载；独立可撤销下载 token、权限与限流受测，保持 info_hash 和个人 announce 凭据隔离。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC10-02",
+          "title": "IYUU 本地站点驱动",
+          "acceptance": "固定 IYUUPlus 版本，提供本地 ReelCore 驱动、配置和可重复应用的补丁；不向 IYUU 上游提交 PR。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC10-03",
+          "title": "离线匹配与合成种子数据",
+          "acceptance": "本地模拟站点目录与匹配响应，使用专用合成数据贯通任务生成；不依赖官方站点收录、索引或真实用户凭据。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC10-04",
+          "title": "真实下载器辅种全链",
+          "acceptance": "用 IYUUPlus 本地驱动和真实 qBittorrent/Transmission 验证下载 torrent、校验已有文件、做种、announce 与账本；覆盖同内容不同 info_hash 的合成种子。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC10-05",
+          "title": "撤销、错误与幂等回归",
+          "acceptance": "撤销下载凭据、封禁、下架、限流、错误 HTML、重复任务、下载重试与客户端重启均受测；不误记下载流量或重复完成。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC10-06",
+          "title": "本地兼容验收报告",
+          "acceptance": "记录 ReelCore/IYUUPlus/下载器版本、补丁、运行步骤与独立对账；本地模拟匹配和真实下载器结果分开，不宣称官方服务接入。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    },
+    {
       "id": "RC11",
       "title": "新前端（后续）",
       "features": [
@@ -485,6 +533,6 @@
       ]
     }
   ],
-  "source_sha": "6ff7fd3caeefe384d469b7e2325db511e0c0d504",
-  "generated_at": "2026-09-16T07:54:42.069503+00:00"
+  "source_sha": "98a25c3e0c586894a70ced9988ecc9d3e4e8bab8",
+  "generated_at": "2026-09-16T08:07:51.257893+00:00"
 }
