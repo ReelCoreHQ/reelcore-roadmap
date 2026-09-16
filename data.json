@@ -1,0 +1,480 @@
+{
+  "project": "ReelCore",
+  "repository": "ReelCoreHQ/reelcore",
+  "scope_note": "当前实施范围 RC01–RC09；RC10 旧数据迁移已移除；RC11/RC12 为后续计划。",
+  "stages": [
+    {
+      "id": "RC00",
+      "title": "项目基线与更名",
+      "features": [
+        {
+          "id": "RC00-01",
+          "title": "代码与配置统一 ReelCore 命名",
+          "acceptance": "Go module、镜像、Compose、环境变量、CI 和文档一致。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC00-02",
+          "title": "隔离环境更名复验",
+          "acceptance": "新命名环境从空库初始化，并通过 smoke、租约、独立进程测试。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    },
+    {
+      "id": "RC01",
+      "title": "业务规则与边界",
+      "features": [
+        {
+          "id": "RC01-01",
+          "title": "首发范围和角色权限",
+          "acceptance": "明确账号、邀请、种子、管理、统计及各角色的权限边界。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC01-02",
+          "title": "会话与计数重置规则",
+          "acceptance": "定义首次非零、started 重试、清零、多 peer、迟到事件和歧义处理。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC01-03",
+          "title": "计费与完成次数规则",
+          "acceptance": "定义重复下载、同会话乱序、completed 幂等及独立预期账本。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC01-04",
+          "title": "规则版本与运营政策",
+          "acceptance": "确定倍率、生效时间、舍入及促销、积分、H&R、VIP/seedbox 的首发范围。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    },
+    {
+      "id": "RC02",
+      "title": "新 Go 核心基础",
+      "features": [
+        {
+          "id": "RC02-01",
+          "title": "根 Go module 与三个入口",
+          "acceptance": "api、tracker、worker 独立构建和启动；兼容模块保留独立测试。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC02-02",
+          "title": "自有数据库与约束",
+          "acceptance": "账号、凭据、种子、规则、事件、会话、流水、任务、审计使用新 schema。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC02-03",
+          "title": "版本化建库与升级",
+          "acceptance": "空库可初始化，重复执行结果明确，升级与失败恢复受测。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC02-04",
+          "title": "配置与依赖健康检查",
+          "acceptance": "配置校验、角色独立 liveness/readiness、依赖状态和安全默认值。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC02-05",
+          "title": "双 module 持续集成",
+          "acceptance": "根核心和过渡模块显式编译、测试、静态分析并记录构建来源。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    },
+    {
+      "id": "RC03",
+      "title": "最小业务 API",
+      "features": [
+        {
+          "id": "RC03-01",
+          "title": "登录、注销与会话安全",
+          "acceptance": "会话与 Tracker 凭据分离；认证、对象级权限、CSRF 和登录限制受测。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC03-02",
+          "title": "上传与文件校验",
+          "acceptance": "资源上限、torrent 结构、暂存发布及失败恢复。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC03-03",
+          "title": "种子审核与上下架",
+          "acceptance": "管理员审核，未授权操作被拒绝并可审计。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC03-04",
+          "title": "个人 torrent 下载",
+          "acceptance": "权限检查，嵌入个人 announce 凭据，info_hash 不变且无跨用户缓存泄露。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC03-05",
+          "title": "个人统计查询",
+          "acceptance": "可查询流量、完成与做种投影，注明统计新鲜度。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC03-06",
+          "title": "最小 OpenAPI 契约",
+          "acceptance": "请求、响应、错误码、分页、权限和限制可验证。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    },
+    {
+      "id": "RC04",
+      "title": "新 Tracker 与记账",
+      "features": [
+        {
+          "id": "RC04-01",
+          "title": "协议与新领域鉴权",
+          "acceptance": "announce/scrape、IPv4/IPv6、非法参数和新用户/种子权限均覆盖。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC04-02",
+          "title": "成功前持久化确认",
+          "acceptance": "有界队列、超时、背压；无 DB 持久提交不得返回业务成功。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC04-03",
+          "title": "可回收租约与 fencing",
+          "acceptance": "旧 owner 不得提交，过期回收、有限重试和毒事件隔离受测。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC04-04",
+          "title": "流水和聚合事务一致",
+          "acceptance": "流水、账户总量、会话状态、完成记录及事件 done 同事务。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC04-05",
+          "title": "会话高水位与幂等",
+          "acceptance": "重复、乱序、计数清零、多 peer/worker、迟到 stopped 符合已定规则。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC04-06",
+          "title": "不可变计费规则版本",
+          "acceptance": "接收时绑定版本，后续修改规则不改变历史事件重放结果。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    },
+    {
+      "id": "RC05",
+      "title": "三进程完整链路",
+      "features": [
+        {
+          "id": "RC05-01",
+          "title": "真实客户端全链",
+          "acceptance": "登录→上传→审核→下载→announce→Torrust→账本→统计可核对。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC05-02",
+          "title": "worker 停止与恢复",
+          "acceptance": "停 worker 仍可持久接收，重启后处理积压且不重复记账。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC05-03",
+          "title": "独立部署和优雅退出",
+          "acceptance": "三个进程可分别重启；在途请求、事件排空、依赖关闭顺序受测。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC05-04",
+          "title": "代理与网络入口隔离",
+          "acceptance": "可信代理地址验证，Torrust HTTP/API/UDP 不得绕过 Go。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC05-05",
+          "title": "权限撤销传播",
+          "acceptance": "封禁、凭据轮换和下架在规定时限失效，依赖故障行为明确。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    },
+    {
+      "id": "RC06",
+      "title": "故障恢复与正确性门禁",
+      "features": [
+        {
+          "id": "RC06-01",
+          "title": "数据库故障矩阵",
+          "acceptance": "断连、写失败、慢事务、死锁、未知提交、响应丢失与恢复逐项对账。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC06-02",
+          "title": "Redis 与 Torrust 故障",
+          "acceptance": "断连、超时、坏响应和重启不产生认证放行或不可恢复错误。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC06-03",
+          "title": "进程崩溃与退出超时",
+          "acceptance": "持续请求中 20 次 SIGTERM、SIGKILL 和超时退出；已接收事件可恢复。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC06-04",
+          "title": "持久副作用与状态投影",
+          "acceptance": "peer 过期、Torrust 恢复、缓存失效和任务重试最终收敛且幂等。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC06-05",
+          "title": "可观测性与告警",
+          "acceptance": "事件年龄、worker 心跳、失败队列、依赖、延迟及资源指标可诊断。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC06-06",
+          "title": "独立于 NexusPHP",
+          "acceptance": "旧库、旧 Redis、PHP 均不可用时，新空库仍完成业务全链。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC06-07",
+          "title": "G1 正确性验收",
+          "acceptance": "A01–A07、A15 对新实现逐项通过；没有未解决的丢账、重账或认证绕过。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    },
+    {
+      "id": "RC07",
+      "title": "容量测试",
+      "features": [
+        {
+          "id": "RC07-01",
+          "title": "可校验负载发生器",
+          "acceptance": "独立机器产生生命周期、重试和可核对账本，报告计划与实际发送率。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC07-02",
+          "title": "目标规模确认",
+          "acceptance": "确定用户/种子/peer 数、announce 周期和峰值；探索结果不冒充正式验收。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC07-03",
+          "title": "阶梯、热点与突发负载",
+          "acceptance": "预热、25/50/100/150% 阶梯、冷缓存和 2 倍短峰；正确性失败即停止。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC07-04",
+          "title": "延迟、成功率与积压验收",
+          "acceptance": "在确认规模下检验 A08/A09，并给出饱和点和建议容量。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    },
+    {
+      "id": "RC08",
+      "title": "长期稳定性",
+      "features": [
+        {
+          "id": "RC08-01",
+          "title": "24 小时预验收",
+          "acceptance": "同一版本连续运行，持续对账并记录故障和资源趋势。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC08-02",
+          "title": "72 小时正式长稳",
+          "acceptance": "同一版本连续 72 小时，不拼接时长，完整保存中间及最终证据。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC08-03",
+          "title": "G2 架构签收",
+          "acceptance": "A10/A11，报告容量、单点、限制与站长确认；之后才展开产品和前端。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    },
+    {
+      "id": "RC09",
+      "title": "完整产品 API",
+      "features": [
+        {
+          "id": "RC09-01",
+          "title": "账号与邀请体系",
+          "acceptance": "受控注册、邀请政策、登录/注销、密码重置、角色、封禁与凭据轮换。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC09-02",
+          "title": "完整种子业务",
+          "acceptance": "列表、筛选、分页、详情、编辑、分类、审核、下架与受控下载。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC09-03",
+          "title": "统计与首发运营规则",
+          "acceptance": "分享率、做种/下载/完成记录，以及 RC01 明确纳入首发的运营规则。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC09-04",
+          "title": "管理、审计与人工调整",
+          "acceptance": "用户/种子/规则管理、失败事件查询、受控重放和追加式账务调整。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC09-05",
+          "title": "API 与安全矩阵",
+          "acceptance": "完整 OpenAPI、对象权限、字段白名单、文件限制、会话/CSRF 和速率限制。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC09-06",
+          "title": "G3 后端产品验收",
+          "acceptance": "首发 API 正反向矩阵通过，最终运行不依赖 PHP 或旧 schema。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    },
+    {
+      "id": "RC11",
+      "title": "新前端（后续）",
+      "features": [
+        {
+          "id": "RC11-01",
+          "title": "框架与契约客户端",
+          "acceptance": "M2 后选定前端框架、组件及 OpenAPI 客户端。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC11-02",
+          "title": "会员站页面",
+          "acceptance": "登录、种子、上传、个人统计及确认的首发业务；移动端和状态反馈完整。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC11-03",
+          "title": "管理页面",
+          "acceptance": "用户、种子、规则、事件处理与审计界面。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC11-04",
+          "title": "浏览器端到端验收",
+          "acceptance": "首发流程及未授权/错误路径通过，下载后真实 announce 与账本可核对。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    },
+    {
+      "id": "RC12",
+      "title": "上线准备（后续）",
+      "features": [
+        {
+          "id": "RC12-01",
+          "title": "发布环境与运行配置",
+          "acceptance": "域名/HTTPS、邮件、秘密注入、镜像摘要、资源限制、监控和告警。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC12-02",
+          "title": "新站初始化",
+          "acceptance": "空库建站、管理员安全初始化和默认权限通过；不导入 NexusPHP 数据。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC12-03",
+          "title": "备份与恢复演练",
+          "acceptance": "数据库与文件共同恢复，独立故障域备份，验证确认的 RPO/RTO。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC12-04",
+          "title": "发布与回退演练",
+          "acceptance": "版本切换、唯一消费者、新写入保护及回退/前向修复路径受测。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC12-05",
+          "title": "G4 发布条件",
+          "acceptance": "产品、前端、恢复和部署证据齐备后再按授权正式发布。",
+          "status": "planned",
+          "history": []
+        }
+      ]
+    }
+  ],
+  "source_sha": "faf615aaf44e5360405103ddd76cec2f11b6ffdf",
+  "generated_at": "2026-09-16T07:36:18.466607+00:00"
+}
