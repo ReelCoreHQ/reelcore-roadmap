@@ -41,29 +41,69 @@
           "id": "RC01-01",
           "title": "首发范围和角色权限",
           "acceptance": "明确账号、邀请、种子、管理、统计及各角色的权限边界。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 10,
+              "merged_at": "2026-09-16T09:14:26Z",
+              "sha": "09a5a4acf718faceb5b2fbf7530f4ba22fa5750d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc01-progress.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC01-02",
           "title": "会话与计数重置规则",
           "acceptance": "定义首次非零、started 重试、清零、多 peer、迟到事件和歧义处理。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 10,
+              "merged_at": "2026-09-16T09:14:26Z",
+              "sha": "09a5a4acf718faceb5b2fbf7530f4ba22fa5750d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc01-progress.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC01-03",
           "title": "计费与完成次数规则",
           "acceptance": "定义重复下载、同会话乱序、completed 幂等及独立预期账本。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 10,
+              "merged_at": "2026-09-16T09:14:26Z",
+              "sha": "09a5a4acf718faceb5b2fbf7530f4ba22fa5750d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc01-progress.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC01-04",
           "title": "规则版本与运营政策",
           "acceptance": "确定倍率、生效时间、舍入及促销、积分、H&R、VIP/seedbox 的首发范围。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 10,
+              "merged_at": "2026-09-16T09:14:26Z",
+              "sha": "09a5a4acf718faceb5b2fbf7530f4ba22fa5750d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc01-progress.md"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -632,6 +672,6 @@
       ]
     }
   ],
-  "source_sha": "cfb6811932cbf83282adf57a91c36747113239d0",
-  "generated_at": "2026-09-16T08:58:26.130418+00:00"
+  "source_sha": "09a5a4acf718faceb5b2fbf7530f4ba22fa5750d",
+  "generated_at": "2026-09-16T09:14:34.336637+00:00"
 }
