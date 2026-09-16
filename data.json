@@ -882,6 +882,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-swarm-expiry.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 47,
+              "merged_at": "2026-09-16T20:07:48Z",
+              "sha": "dcd9bb5c65db29e316652c3bb9b2b1f0ca4d8d08",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-population-observation.md"
+              ]
             }
           ]
         },
@@ -942,6 +951,15 @@
               "sha": "5c4922b2d21f3aa457fabb599995ab9a9749b93f",
               "evidence": [
                 "docs/reports/reelcore-core/rc07-resource-curves.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 47,
+              "merged_at": "2026-09-16T20:07:48Z",
+              "sha": "dcd9bb5c65db29e316652c3bb9b2b1f0ca4d8d08",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-population-observation.md"
               ]
             }
           ]
@@ -1219,6 +1237,6 @@
       ]
     }
   ],
-  "source_sha": "5c4922b2d21f3aa457fabb599995ab9a9749b93f",
-  "generated_at": "2026-09-16T19:54:04.641126+00:00"
+  "source_sha": "dcd9bb5c65db29e316652c3bb9b2b1f0ca4d8d08",
+  "generated_at": "2026-09-16T20:07:57.360915+00:00"
 }
