@@ -350,43 +350,103 @@
           "id": "RC04-01",
           "title": "协议与新领域鉴权",
           "acceptance": "announce/scrape、IPv4/IPv6、非法参数和新用户/种子权限均覆盖。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 13,
+              "merged_at": "2026-09-16T10:33:16Z",
+              "sha": "1197a2bd80d696ad7d7b1d7e045b98a37f9c4518",
+              "evidence": [
+                "docs/reports/reelcore-core/rc04-progress.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC04-02",
           "title": "成功前持久化确认",
           "acceptance": "有界队列、超时、背压；无 DB 持久提交不得返回业务成功。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 13,
+              "merged_at": "2026-09-16T10:33:16Z",
+              "sha": "1197a2bd80d696ad7d7b1d7e045b98a37f9c4518",
+              "evidence": [
+                "docs/reports/reelcore-core/rc04-progress.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC04-03",
           "title": "可回收租约与 fencing",
           "acceptance": "旧 owner 不得提交，过期回收、有限重试和毒事件隔离受测。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 13,
+              "merged_at": "2026-09-16T10:33:16Z",
+              "sha": "1197a2bd80d696ad7d7b1d7e045b98a37f9c4518",
+              "evidence": [
+                "docs/reports/reelcore-core/rc04-progress.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC04-04",
           "title": "流水和聚合事务一致",
           "acceptance": "流水、账户总量、会话状态、完成记录及事件 done 同事务。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 13,
+              "merged_at": "2026-09-16T10:33:16Z",
+              "sha": "1197a2bd80d696ad7d7b1d7e045b98a37f9c4518",
+              "evidence": [
+                "docs/reports/reelcore-core/rc04-progress.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC04-05",
           "title": "会话高水位与幂等",
           "acceptance": "重复、乱序、计数清零、多 peer/worker、迟到 stopped 符合已定规则。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 13,
+              "merged_at": "2026-09-16T10:33:16Z",
+              "sha": "1197a2bd80d696ad7d7b1d7e045b98a37f9c4518",
+              "evidence": [
+                "docs/reports/reelcore-core/rc04-progress.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC04-06",
           "title": "不可变计费规则版本",
           "acceptance": "接收时绑定版本，后续修改规则不改变历史事件重放结果。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 13,
+              "merged_at": "2026-09-16T10:33:16Z",
+              "sha": "1197a2bd80d696ad7d7b1d7e045b98a37f9c4518",
+              "evidence": [
+                "docs/reports/reelcore-core/rc04-progress.md"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -398,36 +458,104 @@
           "id": "RC05-01",
           "title": "真实客户端全链",
           "acceptance": "登录→上传→审核→下载→announce→Torrust→账本→统计可核对。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 14,
+              "merged_at": "2026-09-16T10:58:20Z",
+              "sha": "0660ef220df159685ba0f7e22a1bf4b0300e1140",
+              "evidence": [
+                "docs/reports/reelcore-core/rc05-real-clients.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC05-02",
           "title": "worker 停止与恢复",
           "acceptance": "停 worker 仍可持久接收，重启后处理积压且不重复记账。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 14,
+              "merged_at": "2026-09-16T10:58:20Z",
+              "sha": "0660ef220df159685ba0f7e22a1bf4b0300e1140",
+              "evidence": [
+                "docs/reports/reelcore-core/rc05-real-clients.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC05-03",
           "title": "独立部署和优雅退出",
           "acceptance": "三个进程可分别重启；在途请求、事件排空、依赖关闭顺序受测。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 14,
+              "merged_at": "2026-09-16T10:58:20Z",
+              "sha": "0660ef220df159685ba0f7e22a1bf4b0300e1140",
+              "evidence": [
+                "docs/reports/reelcore-core/rc05-real-clients.md"
+              ]
+            },
+            {
+              "status": "done",
+              "pr": 15,
+              "merged_at": "2026-09-16T11:34:35Z",
+              "sha": "db9b3d24a93e3884516c870fed42f93f190d8996",
+              "evidence": [
+                "docs/reports/reelcore-core/rc06-recovery.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC05-04",
           "title": "代理与网络入口隔离",
           "acceptance": "可信代理地址验证，Torrust HTTP/API/UDP 不得绕过 Go。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 14,
+              "merged_at": "2026-09-16T10:58:20Z",
+              "sha": "0660ef220df159685ba0f7e22a1bf4b0300e1140",
+              "evidence": [
+                "docs/reports/reelcore-core/rc05-real-clients.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC05-05",
           "title": "权限撤销传播",
           "acceptance": "封禁、凭据轮换和下架在规定时限失效，依赖故障行为明确。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 14,
+              "merged_at": "2026-09-16T10:58:20Z",
+              "sha": "0660ef220df159685ba0f7e22a1bf4b0300e1140",
+              "evidence": [
+                "docs/reports/reelcore-core/rc05-real-clients.md"
+              ]
+            },
+            {
+              "status": "done",
+              "pr": 15,
+              "merged_at": "2026-09-16T11:34:35Z",
+              "sha": "db9b3d24a93e3884516c870fed42f93f190d8996",
+              "evidence": [
+                "docs/reports/reelcore-core/rc06-recovery.md"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -439,48 +567,155 @@
           "id": "RC06-01",
           "title": "数据库故障矩阵",
           "acceptance": "断连、写失败、慢事务、死锁、未知提交、响应丢失与恢复逐项对账。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 15,
+              "merged_at": "2026-09-16T11:34:35Z",
+              "sha": "db9b3d24a93e3884516c870fed42f93f190d8996",
+              "evidence": [
+                "docs/reports/reelcore-core/rc06-recovery.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC06-02",
           "title": "Redis 与 Torrust 故障",
           "acceptance": "断连、超时、坏响应和重启不产生认证放行或不可恢复错误。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 15,
+              "merged_at": "2026-09-16T11:34:35Z",
+              "sha": "db9b3d24a93e3884516c870fed42f93f190d8996",
+              "evidence": [
+                "docs/reports/reelcore-core/rc06-recovery.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC06-03",
           "title": "进程崩溃与退出超时",
           "acceptance": "持续请求中 20 次 SIGTERM、SIGKILL 和超时退出；已接收事件可恢复。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 15,
+              "merged_at": "2026-09-16T11:34:35Z",
+              "sha": "db9b3d24a93e3884516c870fed42f93f190d8996",
+              "evidence": [
+                "docs/reports/reelcore-core/rc06-recovery.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC06-04",
           "title": "持久副作用与状态投影",
           "acceptance": "peer 过期、Torrust 恢复、缓存失效和任务重试最终收敛且幂等。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 15,
+              "merged_at": "2026-09-16T11:34:35Z",
+              "sha": "db9b3d24a93e3884516c870fed42f93f190d8996",
+              "evidence": [
+                "docs/reports/reelcore-core/rc06-recovery.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC06-05",
           "title": "可观测性与告警",
           "acceptance": "事件年龄、worker 心跳、失败队列、依赖、延迟及资源指标可诊断。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 15,
+              "merged_at": "2026-09-16T11:34:35Z",
+              "sha": "db9b3d24a93e3884516c870fed42f93f190d8996",
+              "evidence": [
+                "docs/reports/reelcore-core/rc06-recovery.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC06-06",
           "title": "独立于 NexusPHP",
           "acceptance": "旧库、旧 Redis、PHP 均不可用时，新空库仍完成业务全链。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 15,
+              "merged_at": "2026-09-16T11:34:35Z",
+              "sha": "db9b3d24a93e3884516c870fed42f93f190d8996",
+              "evidence": [
+                "docs/reports/reelcore-core/rc06-recovery.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC06-07",
           "title": "G1 正确性验收",
           "acceptance": "A01–A07、A15 对新实现逐项通过；没有未解决的丢账、重账或认证绕过。",
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 15,
+              "merged_at": "2026-09-16T11:34:35Z",
+              "sha": "db9b3d24a93e3884516c870fed42f93f190d8996",
+              "evidence": [
+                "docs/reports/reelcore-core/rc06-recovery.md"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RC-SW",
+      "title": "Swarm 引擎适配与切换",
+      "features": [
+        {
+          "id": "RC-SW-01",
+          "title": "默认 Torrust 统一契约（RC-SW01）",
+          "acceptance": "类型化适配、配置与就绪校验；固定 Torrust 通过 A17 参数化协议、权限、真实双栈、生命周期、故障及最终记账测试后补验 G1。",
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 26,
+              "merged_at": "2026-09-16T14:45:37Z",
+              "sha": "6b6e688c087875c2cdfee51b63e83e56ed5fb92d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc-sw01-contract.md"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "RC-SW-02",
+          "title": "Aquatic HTTP 适配（RC-SW02）",
+          "acceptance": "固定 Aquatic HTTP 版本通过同套 A17 测试并记录差异；独立验收，不阻塞 Torrust 首发或 UI。",
+          "status": "planned",
+          "history": []
+        },
+        {
+          "id": "RC-SW-03",
+          "title": "受控切换与回退（RC-SW03）",
+          "acceptance": "演练 Torrust→Aquatic→Torrust，验证单目标、会话高水位和账本保留，并量化 peer 重建与投影收敛。",
           "status": "planned",
           "history": []
         }
@@ -494,15 +729,98 @@
           "id": "RC07-01",
           "title": "可校验负载发生器",
           "acceptance": "独立机器产生生命周期、重试和可核对账本，报告计划与实际发送率。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 16,
+              "merged_at": "2026-09-16T11:52:56Z",
+              "sha": "cdaba08a797f7ac13bc108924b6330e33fe1e0e1",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-progress.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 17,
+              "merged_at": "2026-09-16T12:11:32Z",
+              "sha": "e06ea115143d8a4b9325a9a837c50f2bbd8d5cf2",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-lifecycle.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 18,
+              "merged_at": "2026-09-16T12:35:09Z",
+              "sha": "17c983e3ff2e4a1f8814ac062349cab26a7dfd23",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-plan.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 19,
+              "merged_at": "2026-09-16T12:59:00Z",
+              "sha": "0d01b200fa0de50effbbd2eacde6205ce6163c90",
+              "evidence": [
+                "docs/reports/reelcore-core/tracker-binary-query.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 20,
+              "merged_at": "2026-09-16T13:08:30Z",
+              "sha": "8a89e9460b0effcb430f354abe5b1320d1d54975",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-swarm-inputs.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 21,
+              "merged_at": "2026-09-16T13:51:23Z",
+              "sha": "de2d3df1a9cd012d64e58ca03b68f5128d2357ac",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-journal-bundle.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 23,
+              "merged_at": "2026-09-16T14:06:51Z",
+              "sha": "02c1cbcc39b02985d634fd3597e8d141ab431437",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-stream-reconcile.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 24,
+              "merged_at": "2026-09-16T14:27:38Z",
+              "sha": "3579cbd0b700848afef0277257462817af5f1430",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-plan-initialization.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC07-02",
           "title": "目标规模确认",
           "acceptance": "确定用户/种子/peer 数、announce 周期和峰值；探索结果不冒充正式验收。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 16,
+              "merged_at": "2026-09-16T11:52:56Z",
+              "sha": "cdaba08a797f7ac13bc108924b6330e33fe1e0e1",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-progress.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC07-03",
@@ -515,8 +833,18 @@
           "id": "RC07-04",
           "title": "延迟、成功率与积压验收",
           "acceptance": "在确认规模下检验 A08/A09，并给出饱和点和建议容量。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 23,
+              "merged_at": "2026-09-16T14:06:51Z",
+              "sha": "02c1cbcc39b02985d634fd3597e8d141ab431437",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-stream-reconcile.md"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -768,6 +1096,6 @@
       ]
     }
   ],
-  "source_sha": "7bcc3f3524cd443cbbea3eafcffeda599c847bcf",
-  "generated_at": "2026-09-16T09:48:37.861483+00:00"
+  "source_sha": "6b6e688c087875c2cdfee51b63e83e56ed5fb92d",
+  "generated_at": "2026-09-16T14:48:16.715386+00:00"
 }
