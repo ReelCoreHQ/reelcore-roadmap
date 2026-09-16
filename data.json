@@ -978,6 +978,24 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-stream-reconcile.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 48,
+              "merged_at": "2026-09-16T20:30:52Z",
+              "sha": "a6302397086a716d738e20c6c17d1131a9ffd7c1",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-swarm-stats.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 49,
+              "merged_at": "2026-09-16T20:33:36Z",
+              "sha": "218c8a835aef738a4bbfef448349ac309ac463d0",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-recovery-curve.md"
+              ]
             }
           ]
         }
@@ -1237,6 +1255,6 @@
       ]
     }
   ],
-  "source_sha": "dcd9bb5c65db29e316652c3bb9b2b1f0ca4d8d08",
-  "generated_at": "2026-09-16T20:07:57.360915+00:00"
+  "source_sha": "218c8a835aef738a4bbfef448349ac309ac463d0",
+  "generated_at": "2026-09-16T20:33:45.581309+00:00"
 }
