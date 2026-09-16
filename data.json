@@ -855,6 +855,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-session-oracle.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 43,
+              "merged_at": "2026-09-16T19:15:16Z",
+              "sha": "563e73eed11e4eb0b544ed86702b2d2b9cc2b46d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-stage-metrics.md"
+              ]
             }
           ]
         },
@@ -879,8 +888,18 @@
           "id": "RC07-03",
           "title": "阶梯、热点与突发负载",
           "acceptance": "预热、25/50/100/150% 阶梯、冷缓存和 2 倍短峰；正确性失败即停止。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 43,
+              "merged_at": "2026-09-16T19:15:16Z",
+              "sha": "563e73eed11e4eb0b544ed86702b2d2b9cc2b46d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-stage-metrics.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC07-04",
@@ -1155,6 +1174,6 @@
       ]
     }
   ],
-  "source_sha": "d0d6438498fdee7c88fd6299c0e761ec53dea334",
-  "generated_at": "2026-09-16T18:53:43.144188+00:00"
+  "source_sha": "563e73eed11e4eb0b544ed86702b2d2b9cc2b46d",
+  "generated_at": "2026-09-16T19:15:26.554041+00:00"
 }
