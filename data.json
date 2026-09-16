@@ -891,6 +891,24 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-population-observation.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 51,
+              "merged_at": "2026-09-16T23:54:35Z",
+              "sha": "2192b35c1caef25ee751f960ffb04fb868fe2593",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-scrape-load.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 52,
+              "merged_at": "2026-09-16T23:54:35Z",
+              "sha": "9d5ea28148d9572210b6f8d98eee254027e5a82b",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-hotspot-population.md"
+              ]
             }
           ]
         },
@@ -961,6 +979,24 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-population-observation.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 51,
+              "merged_at": "2026-09-16T23:54:35Z",
+              "sha": "2192b35c1caef25ee751f960ffb04fb868fe2593",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-scrape-load.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 52,
+              "merged_at": "2026-09-16T23:54:35Z",
+              "sha": "9d5ea28148d9572210b6f8d98eee254027e5a82b",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-hotspot-population.md"
+              ]
             }
           ]
         },
@@ -995,6 +1031,24 @@
               "sha": "218c8a835aef738a4bbfef448349ac309ac463d0",
               "evidence": [
                 "docs/reports/reelcore-core/rc07-recovery-curve.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 50,
+              "merged_at": "2026-09-16T20:57:20Z",
+              "sha": "a4243ff110cfb44e25971d22ddf3b2bd5f3c228c",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-recovery-driver.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 51,
+              "merged_at": "2026-09-16T23:54:35Z",
+              "sha": "2192b35c1caef25ee751f960ffb04fb868fe2593",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-scrape-load.md"
               ]
             }
           ]
@@ -1255,6 +1309,6 @@
       ]
     }
   ],
-  "source_sha": "218c8a835aef738a4bbfef448349ac309ac463d0",
-  "generated_at": "2026-09-16T20:33:45.581309+00:00"
+  "source_sha": "0027b147dbcb5f48b9dec685876c89fcd8eff3e0",
+  "generated_at": "2026-09-16T23:54:51.671546+00:00"
 }
