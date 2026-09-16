@@ -819,6 +819,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-receipt-index.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 39,
+              "merged_at": "2026-09-16T18:01:15Z",
+              "sha": "683a3a795a283e142c058275b33d520ca9ea60b0",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-session-inputs.md"
+              ]
             }
           ]
         },
@@ -1119,6 +1128,6 @@
       ]
     }
   ],
-  "source_sha": "53248575c24ea353914a40858831cd73efec4a01",
-  "generated_at": "2026-09-16T17:48:58.356602+00:00"
+  "source_sha": "683a3a795a283e142c058275b33d520ca9ea60b0",
+  "generated_at": "2026-09-16T18:01:23.847880+00:00"
 }
