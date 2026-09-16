@@ -810,6 +810,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-run-seal.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 35,
+              "merged_at": "2026-09-16T16:56:38Z",
+              "sha": "fa7d08f9b01ed0bcb680a6f8725f6050596707b0",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-receipt-index.md"
+              ]
             }
           ]
         },
@@ -1110,6 +1119,6 @@
       ]
     }
   ],
-  "source_sha": "0023572cff897fbcc27e39fc261b594a0f3b2c0b",
-  "generated_at": "2026-09-16T16:47:04.916460+00:00"
+  "source_sha": "fa7d08f9b01ed0bcb680a6f8725f6050596707b0",
+  "generated_at": "2026-09-16T16:56:47.626972+00:00"
 }
