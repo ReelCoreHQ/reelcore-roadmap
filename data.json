@@ -75,36 +75,86 @@
           "id": "RC02-01",
           "title": "根 Go module 与三个入口",
           "acceptance": "api、tracker、worker 独立构建和启动；兼容模块保留独立测试。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 8,
+              "merged_at": "2026-09-16T08:46:31Z",
+              "sha": "667b836d06cf9a6a29956e6f51f5419ec1f8d38c",
+              "evidence": [
+                "docs/reports/reelcore-core/rc02-foundation.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC02-02",
           "title": "自有数据库与约束",
           "acceptance": "账号、凭据、种子、规则、事件、会话、流水、任务、审计使用新 schema。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 8,
+              "merged_at": "2026-09-16T08:46:31Z",
+              "sha": "667b836d06cf9a6a29956e6f51f5419ec1f8d38c",
+              "evidence": [
+                "docs/reports/reelcore-core/rc02-foundation.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC02-03",
           "title": "版本化建库与升级",
           "acceptance": "空库可初始化，重复执行结果明确，升级与失败恢复受测。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 8,
+              "merged_at": "2026-09-16T08:46:31Z",
+              "sha": "667b836d06cf9a6a29956e6f51f5419ec1f8d38c",
+              "evidence": [
+                "docs/reports/reelcore-core/rc02-foundation.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC02-04",
           "title": "配置与依赖健康检查",
           "acceptance": "配置校验、角色独立 liveness/readiness、依赖状态和安全默认值。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 8,
+              "merged_at": "2026-09-16T08:46:31Z",
+              "sha": "667b836d06cf9a6a29956e6f51f5419ec1f8d38c",
+              "evidence": [
+                "docs/reports/reelcore-core/rc02-foundation.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC02-05",
           "title": "双 module 持续集成",
           "acceptance": "根核心和过渡模块显式编译、测试、静态分析并记录构建来源。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 8,
+              "merged_at": "2026-09-16T08:46:31Z",
+              "sha": "667b836d06cf9a6a29956e6f51f5419ec1f8d38c",
+              "evidence": [
+                "docs/reports/reelcore-core/rc02-foundation.md"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -533,6 +583,6 @@
       ]
     }
   ],
-  "source_sha": "91f3cf4dc5ff9c0916fc02877ad97b67388fcdcb",
-  "generated_at": "2026-09-16T08:18:19.565585+00:00"
+  "source_sha": "667b836d06cf9a6a29956e6f51f5419ec1f8d38c",
+  "generated_at": "2026-09-16T08:46:38.733454+00:00"
 }
