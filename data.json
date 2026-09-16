@@ -934,6 +934,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-swarm-expiry.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 46,
+              "merged_at": "2026-09-16T19:53:55Z",
+              "sha": "5c4922b2d21f3aa457fabb599995ab9a9749b93f",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-resource-curves.md"
+              ]
             }
           ]
         },
@@ -1210,6 +1219,6 @@
       ]
     }
   ],
-  "source_sha": "660009fcabd679a0017caab2490e4c4634a13949",
-  "generated_at": "2026-09-16T19:45:54.538357+00:00"
+  "source_sha": "5c4922b2d21f3aa457fabb599995ab9a9749b93f",
+  "generated_at": "2026-09-16T19:54:04.641126+00:00"
 }
