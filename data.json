@@ -774,6 +774,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-plan-store.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 31,
+              "merged_at": "2026-09-16T16:17:16Z",
+              "sha": "fa8d09729350ecbe569e796f99f7250b66cd5033",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-plan-runner.md"
+              ]
             }
           ]
         },
@@ -1074,6 +1083,6 @@
       ]
     }
   ],
-  "source_sha": "78a272204c760e11d556b7127448c4fab7feba07",
-  "generated_at": "2026-09-16T15:48:22.987383+00:00"
+  "source_sha": "fa8d09729350ecbe569e796f99f7250b66cd5033",
+  "generated_at": "2026-09-16T16:17:23.712565+00:00"
 }
