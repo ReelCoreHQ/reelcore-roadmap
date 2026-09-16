@@ -1,7 +1,7 @@
 {
   "project": "ReelCore",
   "repository": "ReelCoreHQ/reelcore",
-  "scope_note": "RC01–RC09 建设 Go 核心与产品 API；RC10 为 IYUU 原生 API 框架适配及上游 PR 材料；RC11/RC12 为前端和上线。旧数据迁移不在范围内。",
+  "scope_note": "本轮交付 RC07 容量验收、RC09 完整 API、RC10 IYUU 原生 API 适配及 RC11 前端；RC08 按用户明确要求跳过，不视为长稳通过；RC12 上线演练留待后续。当前 G2 由 RC07 的 A08/A09 承担。",
   "stages": [
     {
       "id": "RC00",
@@ -819,21 +819,27 @@
           "id": "RC08-01",
           "title": "24 小时预验收",
           "acceptance": "同一版本连续运行，持续对账并记录故障和资源趋势。",
-          "status": "planned",
+          "scope_status": "skipped",
+          "scope_reason": "用户明确要求本轮跳过 RC08，未执行的长稳不标记通过。",
+          "status": "skipped",
           "history": []
         },
         {
           "id": "RC08-02",
           "title": "72 小时正式长稳",
           "acceptance": "同一版本连续 72 小时，不拼接时长，完整保存中间及最终证据。",
-          "status": "planned",
+          "scope_status": "skipped",
+          "scope_reason": "用户明确要求本轮跳过 RC08，未执行的长稳不标记通过。",
+          "status": "skipped",
           "history": []
         },
         {
           "id": "RC08-03",
-          "title": "G2 架构签收",
-          "acceptance": "A10/A11，报告容量、单点、限制与站长确认；之后才展开产品和前端。",
-          "status": "planned",
+          "title": "原 RC08 长稳架构签收",
+          "acceptance": "原 A10/A11 长稳签收本轮已跳过，不再作为本轮 G2 前置；当前 G2 由 RC07 的 A08/A09 容量验收承担。",
+          "scope_status": "skipped",
+          "scope_reason": "用户明确要求本轮跳过 RC08，未执行的长稳不标记通过。",
+          "status": "skipped",
           "history": []
         }
       ]
@@ -1059,6 +1065,6 @@
       ]
     }
   ],
-  "source_sha": "655b122d35281d5b5f7036fbad6bf2b7d4936ecc",
-  "generated_at": "2026-09-16T15:05:56.799756+00:00"
+  "source_sha": "7a2c5e3c9ffeeb5a1368f13248905bd77faa75fc",
+  "generated_at": "2026-09-16T15:44:13.471873+00:00"
 }
