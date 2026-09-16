@@ -828,6 +828,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-session-inputs.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 40,
+              "merged_at": "2026-09-16T18:15:48Z",
+              "sha": "6bd768611134164cb772e5c92b606177db367424",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-session-provision.md"
+              ]
             }
           ]
         },
@@ -1128,6 +1137,6 @@
       ]
     }
   ],
-  "source_sha": "683a3a795a283e142c058275b33d520ca9ea60b0",
-  "generated_at": "2026-09-16T18:01:23.847880+00:00"
+  "source_sha": "6bd768611134164cb772e5c92b606177db367424",
+  "generated_at": "2026-09-16T18:15:58.931078+00:00"
 }
