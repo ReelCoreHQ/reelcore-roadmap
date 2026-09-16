@@ -18,7 +18,7 @@
 <div class="filters"><label class="search"><span class="sr-only">搜索功能</span><input id="search" type="search" placeholder="搜索功能、编号或验收要求…"></label><label><span class="sr-only">阶段</span><select id="stage"><option value="all">全部阶段</option></select></label><label><span class="sr-only">状态</span><select id="status"><option value="all">全部状态</option><option value="planned">待实现</option><option value="in_progress">进行中</option><option value="done">已完成</option></select></label></div>
 <p id="error" class="error" hidden role="alert"></p><div id="stages" aria-live="polite"></div>
 </section>
-<section class="notes"><h2>完成状态如何更新？</h2><p>只有合入 main 的 PR，明确列出功能编号并附带验收记录，才会标记完成。普通合并不会自动完成整阶段；仅通过旧兼容层测试，也不代表新核心已完成。</p><p>回退或重新打开的功能会恢复为待实现，历史合并记录继续保留。RC10 为 IYUU 本地适配，不要求上游 PR 或官方站点收录；旧数据迁移不在计划内。</p><p class="muted">看板公开展示计划与状态；实现代码和验收报告可能需要仓库访问权限。公开页面不包含私有源码、PR 正文或运行凭据。</p></section>
+<section class="notes"><h2>完成状态如何更新？</h2><p>只有合入 main 的 PR，明确列出功能编号并附带验收记录，才会标记完成。普通合并不会自动完成整阶段；仅通过旧兼容层测试，也不代表新核心已完成。</p><p>回退或重新打开的功能会恢复为待实现，历史合并记录继续保留。RC10 通过原生 API 适配 IYUU，完成本地验收并准备后续上游 PR 材料；旧数据迁移不在计划内。</p><p class="muted">看板公开展示计划与状态；实现代码和验收报告可能需要仓库访问权限。公开页面不包含私有源码、PR 正文或运行凭据。</p></section>
 </main>
 <footer><span>ReelCore · Go core. Clear progress.</span><span id="updated">等待数据</span><span id="revision"></span></footer>
 </body></html>

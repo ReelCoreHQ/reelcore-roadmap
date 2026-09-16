@@ -1,7 +1,7 @@
 {
   "project": "ReelCore",
   "repository": "ReelCoreHQ/reelcore",
-  "scope_note": "RC01–RC09 建设 Go 核心与产品 API；RC10 为 IYUU 本地适配与联调；RC11/RC12 为前端和上线。旧数据迁移不在范围内。",
+  "scope_note": "RC01–RC09 建设 Go 核心与产品 API；RC10 为 IYUU 原生 API 框架适配及上游 PR 材料；RC11/RC12 为前端和上线。旧数据迁移不在范围内。",
   "stages": [
     {
       "id": "RC00",
@@ -411,47 +411,47 @@
     },
     {
       "id": "RC10",
-      "title": "IYUU 本地适配与联调",
+      "title": "IYUU 原生 API 框架适配",
       "features": [
         {
           "id": "RC10-01",
-          "title": "机器下载接口与独立凭据",
-          "acceptance": "提供无需浏览器交互的 torrent 下载；独立可撤销下载 token、权限与限流受测，保持 info_hash 和个人 announce 凭据隔离。",
+          "title": "原生 API 契约与独立凭据",
+          "acceptance": "版本化 OpenAPI 覆盖框架/API 版本识别、所需种子列表/详情与 torrent 下载、分页和错误响应；独立可撤销集成 token 按 scope 授权，保持 info_hash 及个人 announce 凭据隔离。",
           "status": "planned",
           "history": []
         },
         {
           "id": "RC10-02",
-          "title": "IYUU 本地站点驱动",
-          "acceptance": "固定 IYUUPlus 版本，提供本地 ReelCore 驱动、配置和可重复应用的补丁；不向 IYUU 上游提交 PR。",
+          "title": "IYUU ReelCore 框架适配器",
+          "acceptance": "固定 IYUUPlus 版本，通过可配置 base URL/API token 复用原生 API 适配器；不硬编码单站、不使用 NexusPHP HTML 或 download.php 兼容路由。",
           "status": "planned",
           "history": []
         },
         {
           "id": "RC10-03",
-          "title": "离线匹配与合成种子数据",
-          "acceptance": "本地模拟站点目录与匹配响应，使用专用合成数据贯通任务生成；不依赖官方站点收录、索引或真实用户凭据。",
+          "title": "双站配置与离线匹配验证",
+          "acceptance": "同一适配器仅切换配置接入两个隔离 ReelCore 实例，验证站点与凭据隔离；仅中心目录/匹配使用本地模拟和合成数据，不上传官方服务。",
           "status": "planned",
           "history": []
         },
         {
           "id": "RC10-04",
           "title": "真实下载器辅种全链",
-          "acceptance": "用 IYUUPlus 本地驱动和真实 qBittorrent/Transmission 验证下载 torrent、校验已有文件、做种、announce 与账本；覆盖同内容不同 info_hash 的合成种子。",
+          "acceptance": "IYUU 适配器经真实 Go API 下载 torrent，分别通过真实 qBittorrent/Transmission 校验文件、做种、announce 与账本；覆盖同内容不同 info_hash 的合成种子。",
           "status": "planned",
           "history": []
         },
         {
           "id": "RC10-05",
-          "title": "撤销、错误与幂等回归",
-          "acceptance": "撤销下载凭据、封禁、下架、限流、错误 HTML、重复任务、下载重试与客户端重启均受测；不误记下载流量或重复完成。",
+          "title": "版本、权限与幂等回归",
+          "acceptance": "不支持的 API 版本、scope 不足、跨站凭据、撤销、封禁、下架、限流、错误响应、重复任务、重试及重启均受测；不误记流量或重复完成。",
           "status": "planned",
           "history": []
         },
         {
           "id": "RC10-06",
-          "title": "本地兼容验收报告",
-          "acceptance": "记录 ReelCore/IYUUPlus/下载器版本、补丁、运行步骤与独立对账；本地模拟匹配和真实下载器结果分开，不宣称官方服务接入。",
+          "title": "验收报告与上游 PR 材料",
+          "acceptance": "交付固定上游版本的框架适配补丁、契约、配置、fixtures、测试步骤和 PR 描述草稿，供用户后续提交；分离本地模拟补丁，记录真实对账，不宣称官方接入。",
           "status": "planned",
           "history": []
         }
@@ -533,6 +533,6 @@
       ]
     }
   ],
-  "source_sha": "98a25c3e0c586894a70ced9988ecc9d3e4e8bab8",
-  "generated_at": "2026-09-16T08:07:51.257893+00:00"
+  "source_sha": "91f3cf4dc5ff9c0916fc02877ad97b67388fcdcb",
+  "generated_at": "2026-09-16T08:18:19.565585+00:00"
 }
