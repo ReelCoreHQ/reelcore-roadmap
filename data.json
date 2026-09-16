@@ -765,6 +765,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-plan-initialization.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 30,
+              "merged_at": "2026-09-16T15:48:12Z",
+              "sha": "78a272204c760e11d556b7127448c4fab7feba07",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-plan-store.md"
+              ]
             }
           ]
         },
@@ -1065,6 +1074,6 @@
       ]
     }
   ],
-  "source_sha": "7a2c5e3c9ffeeb5a1368f13248905bd77faa75fc",
-  "generated_at": "2026-09-16T15:44:13.471873+00:00"
+  "source_sha": "78a272204c760e11d556b7127448c4fab7feba07",
+  "generated_at": "2026-09-16T15:48:22.987383+00:00"
 }
