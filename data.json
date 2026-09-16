@@ -792,6 +792,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-plan-fixture.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 33,
+              "merged_at": "2026-09-16T16:43:37Z",
+              "sha": "d1ceb98a712328bf181c9d46aa7f7dfab114d1fa",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-init-barrier.md"
+              ]
             }
           ]
         },
@@ -1092,6 +1101,6 @@
       ]
     }
   ],
-  "source_sha": "4c15fa13aa93b23fa548b40412d91528a873df7b",
-  "generated_at": "2026-09-16T16:27:59.865442+00:00"
+  "source_sha": "d1ceb98a712328bf181c9d46aa7f7dfab114d1fa",
+  "generated_at": "2026-09-16T16:43:46.642230+00:00"
 }
