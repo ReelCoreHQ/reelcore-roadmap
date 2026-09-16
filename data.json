@@ -242,43 +242,103 @@
           "id": "RC03-01",
           "title": "登录、注销与会话安全",
           "acceptance": "会话与 Tracker 凭据分离；认证、对象级权限、CSRF 和登录限制受测。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 12,
+              "merged_at": "2026-09-16T09:48:30Z",
+              "sha": "7bcc3f3524cd443cbbea3eafcffeda599c847bcf",
+              "evidence": [
+                "docs/reports/reelcore-core/rc03-native-api.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC03-02",
           "title": "上传与文件校验",
           "acceptance": "资源上限、torrent 结构、暂存发布及失败恢复。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 12,
+              "merged_at": "2026-09-16T09:48:30Z",
+              "sha": "7bcc3f3524cd443cbbea3eafcffeda599c847bcf",
+              "evidence": [
+                "docs/reports/reelcore-core/rc03-native-api.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC03-03",
           "title": "种子审核与上下架",
           "acceptance": "管理员审核，未授权操作被拒绝并可审计。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 12,
+              "merged_at": "2026-09-16T09:48:30Z",
+              "sha": "7bcc3f3524cd443cbbea3eafcffeda599c847bcf",
+              "evidence": [
+                "docs/reports/reelcore-core/rc03-native-api.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC03-04",
           "title": "个人 torrent 下载",
           "acceptance": "权限检查，嵌入个人 announce 凭据，info_hash 不变且无跨用户缓存泄露。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 12,
+              "merged_at": "2026-09-16T09:48:30Z",
+              "sha": "7bcc3f3524cd443cbbea3eafcffeda599c847bcf",
+              "evidence": [
+                "docs/reports/reelcore-core/rc03-native-api.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC03-05",
           "title": "个人统计查询",
           "acceptance": "可查询流量、完成与做种投影，注明统计新鲜度。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 12,
+              "merged_at": "2026-09-16T09:48:30Z",
+              "sha": "7bcc3f3524cd443cbbea3eafcffeda599c847bcf",
+              "evidence": [
+                "docs/reports/reelcore-core/rc03-native-api.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC03-06",
           "title": "最小 OpenAPI 契约",
           "acceptance": "请求、响应、错误码、分页、权限和限制可验证。",
-          "status": "planned",
-          "history": []
+          "status": "done",
+          "history": [
+            {
+              "status": "done",
+              "pr": 12,
+              "merged_at": "2026-09-16T09:48:30Z",
+              "sha": "7bcc3f3524cd443cbbea3eafcffeda599c847bcf",
+              "evidence": [
+                "docs/reports/reelcore-core/rc03-native-api.md"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -708,6 +768,6 @@
       ]
     }
   ],
-  "source_sha": "414b928aef41ad845d8c62a87546d5d74ea0e09f",
-  "generated_at": "2026-09-16T09:28:57.864579+00:00"
+  "source_sha": "7bcc3f3524cd443cbbea3eafcffeda599c847bcf",
+  "generated_at": "2026-09-16T09:48:37.861483+00:00"
 }
