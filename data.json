@@ -1394,6 +1394,15 @@
               "evidence": [
                 "docs/core-development.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 74,
+              "merged_at": "2026-09-17T13:56:06Z",
+              "sha": "0d05bf6fbe128a40e8bb09a3fb644f9e91fb037a",
+              "evidence": [
+                "docs/core-development.md"
+              ]
             }
           ]
         }
@@ -1653,6 +1662,6 @@
       ]
     }
   ],
-  "source_sha": "90b8f5a3158ef96b35d825c1ad37c0b369814eca",
-  "generated_at": "2026-09-17T13:18:56.597553+00:00"
+  "source_sha": "0d05bf6fbe128a40e8bb09a3fb644f9e91fb037a",
+  "generated_at": "2026-09-17T13:57:25.093580+00:00"
 }
