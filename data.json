@@ -1044,6 +1044,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-claim-candidates.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 58,
+              "merged_at": "2026-09-17T02:51:37Z",
+              "sha": "800040c006d0d2db3840e1e93e92f92a51ed8d1e",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-provision-timing.md"
+              ]
             }
           ]
         },
@@ -1143,6 +1152,15 @@
               "sha": "9f74bb691c170613adafe10f4e6ac402942c8079",
               "evidence": [
                 "docs/reports/reelcore-core/rc07-claim-candidates.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 58,
+              "merged_at": "2026-09-17T02:51:37Z",
+              "sha": "800040c006d0d2db3840e1e93e92f92a51ed8d1e",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-provision-timing.md"
               ]
             }
           ]
@@ -1403,6 +1421,6 @@
       ]
     }
   ],
-  "source_sha": "9f74bb691c170613adafe10f4e6ac402942c8079",
-  "generated_at": "2026-09-17T02:47:15.791041+00:00"
+  "source_sha": "800040c006d0d2db3840e1e93e92f92a51ed8d1e",
+  "generated_at": "2026-09-17T02:52:02.841877+00:00"
 }
