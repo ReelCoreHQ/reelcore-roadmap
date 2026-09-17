@@ -1090,6 +1090,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-torrust-transport-reasons.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 63,
+              "merged_at": "2026-09-17T04:41:13Z",
+              "sha": "d89303455693800bc70c46e356592ea94ba5181e",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-http-statistics.md"
+              ]
             }
           ]
         },
@@ -1235,6 +1244,15 @@
               "sha": "aacc83ef938f11bfd0a8a7ae8b10ed699a24675b",
               "evidence": [
                 "docs/reports/reelcore-core/rc07-torrust-transport-reasons.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 63,
+              "merged_at": "2026-09-17T04:41:13Z",
+              "sha": "d89303455693800bc70c46e356592ea94ba5181e",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-http-statistics.md"
               ]
             }
           ]
@@ -1495,6 +1513,6 @@
       ]
     }
   ],
-  "source_sha": "aacc83ef938f11bfd0a8a7ae8b10ed699a24675b",
-  "generated_at": "2026-09-17T04:20:28.286559+00:00"
+  "source_sha": "d89303455693800bc70c46e356592ea94ba5181e",
+  "generated_at": "2026-09-17T04:41:34.876952+00:00"
 }
