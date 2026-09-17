@@ -927,6 +927,13 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-torrust-connection-cap.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 69,
+              "merged_at": "2026-09-17T11:59:27Z",
+              "sha": "1033f0b6d50a5ec0fdd5134b0dc016b207066e52",
+              "evidence": []
             }
           ]
         },
@@ -1616,6 +1623,6 @@
       ]
     }
   ],
-  "source_sha": "0a1fa6852c074be0a854a8a96ea392422bf34f75",
-  "generated_at": "2026-09-17T08:45:18.504878+00:00"
+  "source_sha": "1033f0b6d50a5ec0fdd5134b0dc016b207066e52",
+  "generated_at": "2026-09-17T12:01:12.403978+00:00"
 }
