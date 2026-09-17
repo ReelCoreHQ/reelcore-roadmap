@@ -1378,6 +1378,15 @@
                 "docs/reports/reelcore-core/rc07-performance-diagnosis.md",
                 "docs/reports/reelcore-core/rc07-torrust-32k.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 72,
+              "merged_at": "2026-09-17T13:02:24Z",
+              "sha": "ae06e775bd4a9471f286785ff77f22d46ec19d9a",
+              "evidence": [
+                "docs/core-development.md"
+              ]
             }
           ]
         }
@@ -1637,6 +1646,6 @@
       ]
     }
   ],
-  "source_sha": "5284bc74291e78616cbb9a6b659589b39b4ddf6f",
-  "generated_at": "2026-09-17T12:46:17.462462+00:00"
+  "source_sha": "ae06e775bd4a9471f286785ff77f22d46ec19d9a",
+  "generated_at": "2026-09-17T13:03:00.071557+00:00"
 }
