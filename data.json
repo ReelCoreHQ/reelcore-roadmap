@@ -1071,6 +1071,16 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-torrust-direct.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 61,
+              "merged_at": "2026-09-17T03:52:41Z",
+              "sha": "9dc88915345d4cfb6124c6305fa6b74f090cd95f",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-pilot01.md",
+                "docs/reports/reelcore-core/rc07-torrust-slot-deadline.md"
+              ]
             }
           ]
         },
@@ -1197,6 +1207,16 @@
               "sha": "3ec42641c2c754f6dcf28c88dc48d48fd16f4426",
               "evidence": [
                 "docs/reports/reelcore-core/rc07-torrust-direct.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 61,
+              "merged_at": "2026-09-17T03:52:41Z",
+              "sha": "9dc88915345d4cfb6124c6305fa6b74f090cd95f",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-pilot01.md",
+                "docs/reports/reelcore-core/rc07-torrust-slot-deadline.md"
               ]
             }
           ]
@@ -1457,6 +1477,6 @@
       ]
     }
   ],
-  "source_sha": "3ec42641c2c754f6dcf28c88dc48d48fd16f4426",
-  "generated_at": "2026-09-17T03:37:00.015969+00:00"
+  "source_sha": "9dc88915345d4cfb6124c6305fa6b74f090cd95f",
+  "generated_at": "2026-09-17T03:53:46.215666+00:00"
 }
