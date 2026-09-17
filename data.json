@@ -1015,6 +1015,17 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-scale01-claim.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 55,
+              "merged_at": "2026-09-17T02:05:46Z",
+              "sha": "7ffbd199b97a09b577b58ef554040716510055b1",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-receive-deadlock.md",
+                "docs/reports/reelcore-core/rc07-tracker-failure-metrics.md",
+                "docs/reports/reelcore-core/rc07-scale02-repeat.md"
+              ]
             }
           ]
         },
@@ -1085,6 +1096,17 @@
               "sha": "6026c9b1a014b05e3257e674c6ec7f44466cfe23",
               "evidence": [
                 "docs/reports/reelcore-core/rc07-scale01-claim.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 55,
+              "merged_at": "2026-09-17T02:05:46Z",
+              "sha": "7ffbd199b97a09b577b58ef554040716510055b1",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-receive-deadlock.md",
+                "docs/reports/reelcore-core/rc07-tracker-failure-metrics.md",
+                "docs/reports/reelcore-core/rc07-scale02-repeat.md"
               ]
             }
           ]
@@ -1345,6 +1367,6 @@
       ]
     }
   ],
-  "source_sha": "6026c9b1a014b05e3257e674c6ec7f44466cfe23",
-  "generated_at": "2026-09-17T01:41:47.239615+00:00"
+  "source_sha": "7ffbd199b97a09b577b58ef554040716510055b1",
+  "generated_at": "2026-09-17T02:06:59.920194+00:00"
 }
