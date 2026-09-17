@@ -1117,6 +1117,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-torrust-connection-cap.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 65,
+              "merged_at": "2026-09-17T05:12:03Z",
+              "sha": "cde384e26bb0425e7be8544046fd261675b75198",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-ingress-comparison.md"
+              ]
             }
           ]
         },
@@ -1280,6 +1289,15 @@
               "sha": "6df2782cf10f543d9d591016dd2bbf2221d9f12b",
               "evidence": [
                 "docs/reports/reelcore-core/rc07-torrust-connection-cap.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 65,
+              "merged_at": "2026-09-17T05:12:03Z",
+              "sha": "cde384e26bb0425e7be8544046fd261675b75198",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-ingress-comparison.md"
               ]
             }
           ]
@@ -1540,6 +1558,6 @@
       ]
     }
   ],
-  "source_sha": "6df2782cf10f543d9d591016dd2bbf2221d9f12b",
-  "generated_at": "2026-09-17T05:03:24.681405+00:00"
+  "source_sha": "cde384e26bb0425e7be8544046fd261675b75198",
+  "generated_at": "2026-09-17T05:12:50.046297+00:00"
 }
