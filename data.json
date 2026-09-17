@@ -1081,6 +1081,15 @@
                 "docs/reports/reelcore-core/rc07-torrust-pilot01.md",
                 "docs/reports/reelcore-core/rc07-torrust-slot-deadline.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 62,
+              "merged_at": "2026-09-17T04:10:14Z",
+              "sha": "aacc83ef938f11bfd0a8a7ae8b10ed699a24675b",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-transport-reasons.md"
+              ]
             }
           ]
         },
@@ -1217,6 +1226,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-torrust-pilot01.md",
                 "docs/reports/reelcore-core/rc07-torrust-slot-deadline.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 62,
+              "merged_at": "2026-09-17T04:10:14Z",
+              "sha": "aacc83ef938f11bfd0a8a7ae8b10ed699a24675b",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-transport-reasons.md"
               ]
             }
           ]
@@ -1477,6 +1495,6 @@
       ]
     }
   ],
-  "source_sha": "9dc88915345d4cfb6124c6305fa6b74f090cd95f",
-  "generated_at": "2026-09-17T03:53:46.215666+00:00"
+  "source_sha": "aacc83ef938f11bfd0a8a7ae8b10ed699a24675b",
+  "generated_at": "2026-09-17T04:20:28.286559+00:00"
 }
