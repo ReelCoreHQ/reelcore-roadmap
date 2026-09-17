@@ -1053,6 +1053,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-provision-timing.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 59,
+              "merged_at": "2026-09-17T03:20:41Z",
+              "sha": "fbf07977284a18636915cab37bcb58705982d8b2",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-scale04-repeat.md"
+              ]
             }
           ]
         },
@@ -1161,6 +1170,15 @@
               "sha": "800040c006d0d2db3840e1e93e92f92a51ed8d1e",
               "evidence": [
                 "docs/reports/reelcore-core/rc07-provision-timing.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 59,
+              "merged_at": "2026-09-17T03:20:41Z",
+              "sha": "fbf07977284a18636915cab37bcb58705982d8b2",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-scale04-repeat.md"
               ]
             }
           ]
@@ -1421,6 +1439,6 @@
       ]
     }
   ],
-  "source_sha": "800040c006d0d2db3840e1e93e92f92a51ed8d1e",
-  "generated_at": "2026-09-17T02:52:02.841877+00:00"
+  "source_sha": "fbf07977284a18636915cab37bcb58705982d8b2",
+  "generated_at": "2026-09-17T03:21:29.386092+00:00"
 }
