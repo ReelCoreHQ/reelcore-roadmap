@@ -925,7 +925,7 @@
           "id": "RC07-02",
           "title": "目标规模确认",
           "acceptance": "确定用户/种子/peer 数、announce 周期和峰值；探索结果不冒充正式验收。",
-          "status": "done",
+          "status": "in_progress",
           "history": [
             {
               "status": "done",
@@ -934,6 +934,15 @@
               "sha": "cdaba08a797f7ac13bc108924b6330e33fe1e0e1",
               "evidence": [
                 "docs/reports/reelcore-core/rc07-progress.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 54,
+              "merged_at": "2026-09-17T00:44:55Z",
+              "sha": "6026c9b1a014b05e3257e674c6ec7f44466cfe23",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-scale01-claim.md"
               ]
             }
           ]
@@ -1327,6 +1336,6 @@
       ]
     }
   ],
-  "source_sha": "118dd79988831e4abe15bc80c4bf4131c79f877e",
-  "generated_at": "2026-09-17T00:13:59.905384+00:00"
+  "source_sha": "6026c9b1a014b05e3257e674c6ec7f44466cfe23",
+  "generated_at": "2026-09-17T01:40:18.459350+00:00"
 }
