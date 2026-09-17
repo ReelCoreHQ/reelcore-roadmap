@@ -918,6 +918,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-dualhost-deployment.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 64,
+              "merged_at": "2026-09-17T05:03:07Z",
+              "sha": "6df2782cf10f543d9d591016dd2bbf2221d9f12b",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-connection-cap.md"
+              ]
             }
           ]
         },
@@ -1099,6 +1108,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-torrust-http-statistics.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 64,
+              "merged_at": "2026-09-17T05:03:07Z",
+              "sha": "6df2782cf10f543d9d591016dd2bbf2221d9f12b",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-connection-cap.md"
+              ]
             }
           ]
         },
@@ -1253,6 +1271,15 @@
               "sha": "d89303455693800bc70c46e356592ea94ba5181e",
               "evidence": [
                 "docs/reports/reelcore-core/rc07-torrust-http-statistics.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 64,
+              "merged_at": "2026-09-17T05:03:07Z",
+              "sha": "6df2782cf10f543d9d591016dd2bbf2221d9f12b",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-connection-cap.md"
               ]
             }
           ]
@@ -1513,6 +1540,6 @@
       ]
     }
   ],
-  "source_sha": "d89303455693800bc70c46e356592ea94ba5181e",
-  "generated_at": "2026-09-17T04:41:34.876952+00:00"
+  "source_sha": "6df2782cf10f543d9d591016dd2bbf2221d9f12b",
+  "generated_at": "2026-09-17T05:03:24.681405+00:00"
 }
