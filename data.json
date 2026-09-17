@@ -1126,6 +1126,35 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-torrust-ingress-comparison.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 66,
+              "merged_at": "2026-09-17T05:26:37Z",
+              "sha": "0cafc68e489a547c56bd8d135df57a0b4f5a1c02",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-eightk-comparison.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 67,
+              "merged_at": "2026-09-17T08:44:28Z",
+              "sha": "0a1fa6852c074be0a854a8a96ea392422bf34f75",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-continuous-schedule.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 68,
+              "merged_at": "2026-09-17T08:44:28Z",
+              "sha": "9c045014480f860ce85ae6e617c9db0ea3e7c1e0",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-provision-account-concurrency.md",
+                "docs/reports/reelcore-core/rc07-performance-diagnosis.md",
+                "docs/reports/reelcore-core/rc07-torrust-32k.md"
+              ]
             }
           ]
         },
@@ -1298,6 +1327,35 @@
               "sha": "cde384e26bb0425e7be8544046fd261675b75198",
               "evidence": [
                 "docs/reports/reelcore-core/rc07-torrust-ingress-comparison.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 66,
+              "merged_at": "2026-09-17T05:26:37Z",
+              "sha": "0cafc68e489a547c56bd8d135df57a0b4f5a1c02",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-eightk-comparison.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 67,
+              "merged_at": "2026-09-17T08:44:28Z",
+              "sha": "0a1fa6852c074be0a854a8a96ea392422bf34f75",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-continuous-schedule.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 68,
+              "merged_at": "2026-09-17T08:44:28Z",
+              "sha": "9c045014480f860ce85ae6e617c9db0ea3e7c1e0",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-provision-account-concurrency.md",
+                "docs/reports/reelcore-core/rc07-performance-diagnosis.md",
+                "docs/reports/reelcore-core/rc07-torrust-32k.md"
               ]
             }
           ]
@@ -1558,6 +1616,6 @@
       ]
     }
   ],
-  "source_sha": "cde384e26bb0425e7be8544046fd261675b75198",
-  "generated_at": "2026-09-17T05:12:50.046297+00:00"
+  "source_sha": "0a1fa6852c074be0a854a8a96ea392422bf34f75",
+  "generated_at": "2026-09-17T08:45:18.504878+00:00"
 }
