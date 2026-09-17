@@ -1062,6 +1062,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc07-scale04-repeat.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 60,
+              "merged_at": "2026-09-17T03:36:37Z",
+              "sha": "3ec42641c2c754f6dcf28c88dc48d48fd16f4426",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-direct.md"
+              ]
             }
           ]
         },
@@ -1179,6 +1188,15 @@
               "sha": "fbf07977284a18636915cab37bcb58705982d8b2",
               "evidence": [
                 "docs/reports/reelcore-core/rc07-scale04-repeat.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 60,
+              "merged_at": "2026-09-17T03:36:37Z",
+              "sha": "3ec42641c2c754f6dcf28c88dc48d48fd16f4426",
+              "evidence": [
+                "docs/reports/reelcore-core/rc07-torrust-direct.md"
               ]
             }
           ]
@@ -1439,6 +1457,6 @@
       ]
     }
   ],
-  "source_sha": "fbf07977284a18636915cab37bcb58705982d8b2",
-  "generated_at": "2026-09-17T03:21:29.386092+00:00"
+  "source_sha": "3ec42641c2c754f6dcf28c88dc48d48fd16f4426",
+  "generated_at": "2026-09-17T03:37:00.015969+00:00"
 }
