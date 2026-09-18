@@ -1477,8 +1477,18 @@
           "id": "RC09-05",
           "title": "API 与安全矩阵",
           "acceptance": "完整 OpenAPI、对象权限、字段白名单、文件限制、会话/CSRF 和速率限制。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 76,
+              "merged_at": "2026-09-18T03:17:05Z",
+              "sha": "746c4dc389d8d3cdba1157ed8860405b3e1ddf79",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-contract.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC09-06",
@@ -1662,6 +1672,6 @@
       ]
     }
   ],
-  "source_sha": "0d05bf6fbe128a40e8bb09a3fb644f9e91fb037a",
-  "generated_at": "2026-09-17T13:57:25.093580+00:00"
+  "source_sha": "746c4dc389d8d3cdba1157ed8860405b3e1ddf79",
+  "generated_at": "2026-09-18T03:22:10.732320+00:00"
 }
