@@ -1504,6 +1504,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc09-candidate.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 90,
+              "merged_at": "2026-09-18T12:36:51Z",
+              "sha": "3d0116e4012f3962bef909d429acf48742988000",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-g3-matrix.md"
+              ]
             }
           ]
         },
@@ -1611,6 +1620,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc09-candidate.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 90,
+              "merged_at": "2026-09-18T12:36:51Z",
+              "sha": "3d0116e4012f3962bef909d429acf48742988000",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-g3-matrix.md"
+              ]
             }
           ]
         },
@@ -1664,6 +1682,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc09-candidate.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 90,
+              "merged_at": "2026-09-18T12:36:51Z",
+              "sha": "3d0116e4012f3962bef909d429acf48742988000",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-g3-matrix.md"
+              ]
             }
           ]
         },
@@ -1716,6 +1743,15 @@
               "sha": "533b180827849393d7f5c20489d6312297752215",
               "evidence": [
                 "docs/reports/reelcore-core/rc09-candidate.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 90,
+              "merged_at": "2026-09-18T12:36:51Z",
+              "sha": "3d0116e4012f3962bef909d429acf48742988000",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-g3-matrix.md"
               ]
             }
           ]
@@ -1824,6 +1860,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc09-candidate.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 90,
+              "merged_at": "2026-09-18T12:36:51Z",
+              "sha": "3d0116e4012f3962bef909d429acf48742988000",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-g3-matrix.md"
+              ]
             }
           ]
         },
@@ -1876,6 +1921,15 @@
               "sha": "533b180827849393d7f5c20489d6312297752215",
               "evidence": [
                 "docs/reports/reelcore-core/rc09-candidate.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 90,
+              "merged_at": "2026-09-18T12:36:51Z",
+              "sha": "3d0116e4012f3962bef909d429acf48742988000",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-g3-matrix.md"
               ]
             }
           ]
@@ -2065,6 +2119,6 @@
       ]
     }
   ],
-  "source_sha": "533b180827849393d7f5c20489d6312297752215",
-  "generated_at": "2026-09-18T11:29:02.529003+00:00"
+  "source_sha": "3d0116e4012f3962bef909d429acf48742988000",
+  "generated_at": "2026-09-18T12:38:43.304763+00:00"
 }
