@@ -1459,6 +1459,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc09-progress.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 79,
+              "merged_at": "2026-09-18T04:51:39Z",
+              "sha": "a74252f9638810246e39cd202c82db7407762c4c",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-contract-v2.md"
+              ]
             }
           ]
         },
@@ -1476,6 +1485,24 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc09-progress.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 78,
+              "merged_at": "2026-09-18T04:34:58Z",
+              "sha": "f4531655fafd4294e9ac06dc53c284c51ffe9fdf",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-empty-media-upload.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 79,
+              "merged_at": "2026-09-18T04:51:39Z",
+              "sha": "a74252f9638810246e39cd202c82db7407762c4c",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-contract-v2.md"
+              ]
             }
           ]
         },
@@ -1483,15 +1510,35 @@
           "id": "RC09-03",
           "title": "统计与首发运营规则",
           "acceptance": "分享率、做种/下载/完成记录，以及 RC01 明确纳入首发的运营规则。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 79,
+              "merged_at": "2026-09-18T04:51:39Z",
+              "sha": "a74252f9638810246e39cd202c82db7407762c4c",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-contract-v2.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC09-04",
           "title": "管理、审计与人工调整",
           "acceptance": "用户/种子/规则管理、失败事件查询、受控重放和追加式账务调整。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 79,
+              "merged_at": "2026-09-18T04:51:39Z",
+              "sha": "a74252f9638810246e39cd202c82db7407762c4c",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-contract-v2.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC09-05",
@@ -1515,6 +1562,24 @@
               "sha": "2876d566dc379b61e1f0e003fa94230ca3f16f24",
               "evidence": [
                 "docs/reports/reelcore-core/rc09-progress.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 78,
+              "merged_at": "2026-09-18T04:34:58Z",
+              "sha": "f4531655fafd4294e9ac06dc53c284c51ffe9fdf",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-empty-media-upload.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 79,
+              "merged_at": "2026-09-18T04:51:39Z",
+              "sha": "a74252f9638810246e39cd202c82db7407762c4c",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-contract-v2.md"
               ]
             }
           ]
@@ -1711,6 +1776,6 @@
       ]
     }
   ],
-  "source_sha": "2876d566dc379b61e1f0e003fa94230ca3f16f24",
-  "generated_at": "2026-09-18T03:45:22.042818+00:00"
+  "source_sha": "a74252f9638810246e39cd202c82db7407762c4c",
+  "generated_at": "2026-09-18T04:59:03.333716+00:00"
 }
