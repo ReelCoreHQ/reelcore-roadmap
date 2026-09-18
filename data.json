@@ -1486,6 +1486,15 @@
               "evidence": [
                 "docs/api/rc09-service-v310.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 88,
+              "merged_at": "2026-09-18T10:15:22Z",
+              "sha": "bfdb0edc2326c3ed4ad6140118cb9175217dbc3d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-candidate.md"
+              ]
             }
           ]
         },
@@ -1575,6 +1584,15 @@
               "evidence": [
                 "docs/api/rc09-service-v310.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 88,
+              "merged_at": "2026-09-18T10:15:22Z",
+              "sha": "bfdb0edc2326c3ed4ad6140118cb9175217dbc3d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-candidate.md"
+              ]
             }
           ]
         },
@@ -1610,6 +1628,15 @@
               "evidence": [
                 "docs/api/rc09-service-v310.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 88,
+              "merged_at": "2026-09-18T10:15:22Z",
+              "sha": "bfdb0edc2326c3ed4ad6140118cb9175217dbc3d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-candidate.md"
+              ]
             }
           ]
         },
@@ -1644,6 +1671,15 @@
               "sha": "aea5cee69f032a83e8bd539224dda7e56d030409",
               "evidence": [
                 "docs/api/rc09-service-v310.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 88,
+              "merged_at": "2026-09-18T10:15:22Z",
+              "sha": "bfdb0edc2326c3ed4ad6140118cb9175217dbc3d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-candidate.md"
               ]
             }
           ]
@@ -1734,6 +1770,15 @@
               "evidence": [
                 "docs/api/rc09-service-v310.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 88,
+              "merged_at": "2026-09-18T10:15:22Z",
+              "sha": "bfdb0edc2326c3ed4ad6140118cb9175217dbc3d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-candidate.md"
+              ]
             }
           ]
         },
@@ -1768,6 +1813,15 @@
               "sha": "aea5cee69f032a83e8bd539224dda7e56d030409",
               "evidence": [
                 "docs/api/rc09-service-v310.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 88,
+              "merged_at": "2026-09-18T10:15:22Z",
+              "sha": "bfdb0edc2326c3ed4ad6140118cb9175217dbc3d",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-candidate.md"
               ]
             }
           ]
@@ -1957,6 +2011,6 @@
       ]
     }
   ],
-  "source_sha": "aea5cee69f032a83e8bd539224dda7e56d030409",
-  "generated_at": "2026-09-18T09:12:31.895773+00:00"
+  "source_sha": "bfdb0edc2326c3ed4ad6140118cb9175217dbc3d",
+  "generated_at": "2026-09-18T10:21:57.095978+00:00"
 }
