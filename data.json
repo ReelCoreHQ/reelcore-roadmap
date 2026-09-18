@@ -1449,15 +1449,35 @@
           "id": "RC09-01",
           "title": "账号与邀请体系",
           "acceptance": "受控注册、邀请政策、登录/注销、密码重置、角色、封禁与凭据轮换。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 77,
+              "merged_at": "2026-09-18T03:40:31Z",
+              "sha": "2876d566dc379b61e1f0e003fa94230ca3f16f24",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-progress.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC09-02",
           "title": "完整种子业务",
           "acceptance": "列表、筛选、分页、详情、编辑、分类、审核、下架与受控下载。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 77,
+              "merged_at": "2026-09-18T03:40:31Z",
+              "sha": "2876d566dc379b61e1f0e003fa94230ca3f16f24",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-progress.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC09-03",
@@ -1487,6 +1507,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc09-contract.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 77,
+              "merged_at": "2026-09-18T03:40:31Z",
+              "sha": "2876d566dc379b61e1f0e003fa94230ca3f16f24",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-progress.md"
+              ]
             }
           ]
         },
@@ -1494,8 +1523,18 @@
           "id": "RC09-06",
           "title": "G3 后端产品验收",
           "acceptance": "首发 API 正反向矩阵通过，最终运行不依赖 PHP 或旧 schema。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 77,
+              "merged_at": "2026-09-18T03:40:31Z",
+              "sha": "2876d566dc379b61e1f0e003fa94230ca3f16f24",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-progress.md"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1672,6 +1711,6 @@
       ]
     }
   ],
-  "source_sha": "746c4dc389d8d3cdba1157ed8860405b3e1ddf79",
-  "generated_at": "2026-09-18T03:22:10.732320+00:00"
+  "source_sha": "2876d566dc379b61e1f0e003fa94230ca3f16f24",
+  "generated_at": "2026-09-18T03:45:22.042818+00:00"
 }
