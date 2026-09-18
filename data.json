@@ -1611,8 +1611,18 @@
           "id": "RC10-01",
           "title": "原生 API 契约与独立凭据",
           "acceptance": "版本化 OpenAPI 覆盖框架/API 版本识别、所需种子列表/详情与 torrent 下载、分页和错误响应；独立可撤销集成 token 按 scope 授权，保持 info_hash 及个人 announce 凭据隔离。",
-          "status": "planned",
-          "history": []
+          "status": "in_progress",
+          "history": [
+            {
+              "status": "in_progress",
+              "pr": 80,
+              "merged_at": "2026-09-18T05:45:26Z",
+              "sha": "553c2a9167dd609acd86c8ee3ab1353d440248c8",
+              "evidence": [
+                "docs/api/integration-contract.md"
+              ]
+            }
+          ]
         },
         {
           "id": "RC10-02",
@@ -1776,6 +1786,6 @@
       ]
     }
   ],
-  "source_sha": "a74252f9638810246e39cd202c82db7407762c4c",
-  "generated_at": "2026-09-18T04:59:03.333716+00:00"
+  "source_sha": "553c2a9167dd609acd86c8ee3ab1353d440248c8",
+  "generated_at": "2026-09-18T05:48:20.623835+00:00"
 }
