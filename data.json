@@ -1512,6 +1512,24 @@
               "evidence": [
                 "docs/api/rc09-contract.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 82,
+              "merged_at": "2026-09-18T06:26:18Z",
+              "sha": "89ac639164f7c46ae32de60f326d4e375a0319ce",
+              "evidence": [
+                "docs/api/metadata-provider.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 83,
+              "merged_at": "2026-09-18T06:42:22Z",
+              "sha": "9d7c9613a19642b7a3c399fe5f64f4f683651d0b",
+              "evidence": [
+                "docs/api/rc09-contract.md"
+              ]
             }
           ]
         },
@@ -1596,6 +1614,15 @@
               "pr": 81,
               "merged_at": "2026-09-18T06:18:36Z",
               "sha": "8d8b7395fa4fece079f6a053b32e36b9c37bde9c",
+              "evidence": [
+                "docs/api/rc09-contract.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 83,
+              "merged_at": "2026-09-18T06:42:22Z",
+              "sha": "9d7c9613a19642b7a3c399fe5f64f4f683651d0b",
               "evidence": [
                 "docs/api/rc09-contract.md"
               ]
@@ -1804,6 +1831,6 @@
       ]
     }
   ],
-  "source_sha": "8d8b7395fa4fece079f6a053b32e36b9c37bde9c",
-  "generated_at": "2026-09-18T06:19:57.617923+00:00"
+  "source_sha": "9d7c9613a19642b7a3c399fe5f64f4f683651d0b",
+  "generated_at": "2026-09-18T06:51:09.321332+00:00"
 }
