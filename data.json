@@ -1503,6 +1503,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc09-contract-v2.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 81,
+              "merged_at": "2026-09-18T06:18:36Z",
+              "sha": "8d8b7395fa4fece079f6a053b32e36b9c37bde9c",
+              "evidence": [
+                "docs/api/rc09-contract.md"
+              ]
             }
           ]
         },
@@ -1580,6 +1589,15 @@
               "sha": "a74252f9638810246e39cd202c82db7407762c4c",
               "evidence": [
                 "docs/reports/reelcore-core/rc09-contract-v2.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 81,
+              "merged_at": "2026-09-18T06:18:36Z",
+              "sha": "8d8b7395fa4fece079f6a053b32e36b9c37bde9c",
+              "evidence": [
+                "docs/api/rc09-contract.md"
               ]
             }
           ]
@@ -1786,6 +1804,6 @@
       ]
     }
   ],
-  "source_sha": "553c2a9167dd609acd86c8ee3ab1353d440248c8",
-  "generated_at": "2026-09-18T05:48:20.623835+00:00"
+  "source_sha": "8d8b7395fa4fece079f6a053b32e36b9c37bde9c",
+  "generated_at": "2026-09-18T06:19:57.617923+00:00"
 }
