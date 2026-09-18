@@ -1449,7 +1449,7 @@
           "id": "RC09-01",
           "title": "账号与邀请体系",
           "acceptance": "受控注册、邀请政策、登录/注销、密码重置、角色、封禁与凭据轮换。",
-          "status": "in_progress",
+          "status": "done",
           "history": [
             {
               "status": "in_progress",
@@ -1513,6 +1513,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc09-g3-matrix.md"
               ]
+            },
+            {
+              "status": "done",
+              "pr": 91,
+              "merged_at": "2026-09-18T13:43:46Z",
+              "sha": "dd444e0cf5e1a19560ca58f904b2d40c6723e64f",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-g3-matrix.md"
+              ]
             }
           ]
         },
@@ -1520,7 +1529,7 @@
           "id": "RC09-02",
           "title": "完整种子业务",
           "acceptance": "列表、筛选、分页、详情、编辑、分类、审核、下架与受控下载。",
-          "status": "in_progress",
+          "status": "done",
           "history": [
             {
               "status": "in_progress",
@@ -1629,6 +1638,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc09-g3-matrix.md"
               ]
+            },
+            {
+              "status": "done",
+              "pr": 91,
+              "merged_at": "2026-09-18T13:43:46Z",
+              "sha": "dd444e0cf5e1a19560ca58f904b2d40c6723e64f",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-g3-matrix.md"
+              ]
             }
           ]
         },
@@ -1636,7 +1654,7 @@
           "id": "RC09-03",
           "title": "统计与首发运营规则",
           "acceptance": "分享率、做种/下载/完成记录，以及 RC01 明确纳入首发的运营规则。",
-          "status": "in_progress",
+          "status": "done",
           "history": [
             {
               "status": "in_progress",
@@ -1688,6 +1706,15 @@
               "pr": 90,
               "merged_at": "2026-09-18T12:36:51Z",
               "sha": "3d0116e4012f3962bef909d429acf48742988000",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-g3-matrix.md"
+              ]
+            },
+            {
+              "status": "done",
+              "pr": 91,
+              "merged_at": "2026-09-18T13:43:46Z",
+              "sha": "dd444e0cf5e1a19560ca58f904b2d40c6723e64f",
               "evidence": [
                 "docs/reports/reelcore-core/rc09-g3-matrix.md"
               ]
@@ -1698,7 +1725,7 @@
           "id": "RC09-04",
           "title": "管理、审计与人工调整",
           "acceptance": "用户/种子/规则管理、失败事件查询、受控重放和追加式账务调整。",
-          "status": "in_progress",
+          "status": "done",
           "history": [
             {
               "status": "in_progress",
@@ -1753,6 +1780,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc09-g3-matrix.md"
               ]
+            },
+            {
+              "status": "done",
+              "pr": 91,
+              "merged_at": "2026-09-18T13:43:46Z",
+              "sha": "dd444e0cf5e1a19560ca58f904b2d40c6723e64f",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-g3-matrix.md"
+              ]
             }
           ]
         },
@@ -1760,7 +1796,7 @@
           "id": "RC09-05",
           "title": "API 与安全矩阵",
           "acceptance": "完整 OpenAPI、对象权限、字段白名单、文件限制、会话/CSRF 和速率限制。",
-          "status": "in_progress",
+          "status": "done",
           "history": [
             {
               "status": "in_progress",
@@ -1869,6 +1905,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/rc09-g3-matrix.md"
               ]
+            },
+            {
+              "status": "done",
+              "pr": 91,
+              "merged_at": "2026-09-18T13:43:46Z",
+              "sha": "dd444e0cf5e1a19560ca58f904b2d40c6723e64f",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-g3-matrix.md"
+              ]
             }
           ]
         },
@@ -1876,7 +1921,7 @@
           "id": "RC09-06",
           "title": "G3 后端产品验收",
           "acceptance": "首发 API 正反向矩阵通过，最终运行不依赖 PHP 或旧 schema。",
-          "status": "in_progress",
+          "status": "done",
           "history": [
             {
               "status": "in_progress",
@@ -1928,6 +1973,15 @@
               "pr": 90,
               "merged_at": "2026-09-18T12:36:51Z",
               "sha": "3d0116e4012f3962bef909d429acf48742988000",
+              "evidence": [
+                "docs/reports/reelcore-core/rc09-g3-matrix.md"
+              ]
+            },
+            {
+              "status": "done",
+              "pr": 91,
+              "merged_at": "2026-09-18T13:43:46Z",
+              "sha": "dd444e0cf5e1a19560ca58f904b2d40c6723e64f",
               "evidence": [
                 "docs/reports/reelcore-core/rc09-g3-matrix.md"
               ]
@@ -2001,7 +2055,7 @@
         {
           "id": "RC11-01",
           "title": "框架与契约客户端",
-          "acceptance": "M2 后选定前端框架、组件及 OpenAPI 客户端。",
+          "acceptance": "按版本化契约选定前端框架、组件及 OpenAPI 客户端；可与容量工作并行，真实联调另验。",
           "status": "planned",
           "history": []
         },
@@ -2119,6 +2173,6 @@
       ]
     }
   ],
-  "source_sha": "3d0116e4012f3962bef909d429acf48742988000",
-  "generated_at": "2026-09-18T12:38:43.304763+00:00"
+  "source_sha": "dd444e0cf5e1a19560ca58f904b2d40c6723e64f",
+  "generated_at": "2026-09-18T13:44:49.845280+00:00"
 }
