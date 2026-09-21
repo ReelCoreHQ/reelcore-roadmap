@@ -1745,6 +1745,15 @@
               "evidence": [
                 "docs/reports/reelcore-core/operations-runtime.md"
               ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 99,
+              "merged_at": "2026-09-21T12:27:10Z",
+              "sha": "79cca1e80ed838e29374d4bafa52bbb674543751",
+              "evidence": [
+                "docs/reports/reelcore-core/seedbox-independent-settings.md"
+              ]
             }
           ]
         },
@@ -1824,6 +1833,15 @@
               "sha": "c8b48df37060397278dea46fca2d6305d1820738",
               "evidence": [
                 "docs/reports/reelcore-core/operations-runtime.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 99,
+              "merged_at": "2026-09-21T12:27:10Z",
+              "sha": "79cca1e80ed838e29374d4bafa52bbb674543751",
+              "evidence": [
+                "docs/reports/reelcore-core/seedbox-independent-settings.md"
               ]
             }
           ]
@@ -1967,6 +1985,15 @@
               "sha": "37033b226ea4a811a00f859234c318c3c8d7a21b",
               "evidence": [
                 "docs/reports/reelcore-core/library-rss.md"
+              ]
+            },
+            {
+              "status": "in_progress",
+              "pr": 99,
+              "merged_at": "2026-09-21T12:27:10Z",
+              "sha": "79cca1e80ed838e29374d4bafa52bbb674543751",
+              "evidence": [
+                "docs/reports/reelcore-core/seedbox-independent-settings.md"
               ]
             }
           ]
@@ -2246,6 +2273,6 @@
       ]
     }
   ],
-  "source_sha": "e4c46c2c92fade7fc6bffd9b37a9d593422d8579",
-  "generated_at": "2026-09-21T09:47:10.512715+00:00"
+  "source_sha": "79cca1e80ed838e29374d4bafa52bbb674543751",
+  "generated_at": "2026-09-21T12:28:25.920286+00:00"
 }
